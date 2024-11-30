@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeNest</title> 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url('pink-circle-gradient-abstract-background_604991-76.jpg');
+            background-attachment: fixed;
+            background-color: rgb(237, 162, 162);
+            background-repeat: no-repeat;
+            background-size: 5000px;
+        }
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+        }
+        .nav li {
+            margin: 0 15px;
+            font-size: 25px;
+            font-weight: bold;
+            color: fuchsia;
+        }
+        .nav a {
+            color: black;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: grey;
+            color: azure;
+        }
+        .button {
+            width: 90px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 20px;
+            background-color: rgb(235, 97, 143);
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: grey;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container img {
+            width: 50%;
+            height: auto;
+        }
+        .container p {
+            color: rgb(213, 43, 72);
+            font-size: 55px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+        }
+        .container .sub-heading {
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .btn {
+            width: 300px;
+            height: 40px;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgb(235, 97, 143);
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: grey;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .feature-box {
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .feature-box img {
+            width: 80%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .feature-box h3 {
+            font-size: 35px;
+            color: black;
+        }
+        .feature-box p {
+            font-size: 20px;
+            font-style: italic;
+        }
+        .contact {
+            background-color: rgb(62, 61, 61);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#"><input type="button" value="Login" class="button"></a></li>
+        <li><a href="#"><input type="button" value="Sign Up" class="button"></a></li>
+    </ul>
+
+    <div class="container">
+        <img src="log3.png" alt="Logo">
+        <p>"Your safety is our mission. Together, we can create change."</p>
+        <p class="sub-heading">~ Join us in building a safer world for women.</p>
+        <button class="btn">Get Started Today</button>
+    </div>
+
+    <section class="features" id="features">
+        <div class="feature-box">
+            <img src="Location-Sharing-header-800x800-1.webp" alt="Location Sharing">
+            <h3>Location Sharing</h3>
+            <p>Instantly share your location and alert selected contacts by pressing the power button four times or through voice activation.</p>
+        </div>
+        <div class="feature-box">
+            <img src="md.png" alt="Media Backup">
+            <h3>Media Backup</h3>
+            <p>Automatically record audio and snap pictures, storing them securely in your Google Drive for later access.</p>
+        </div>
+        <div class="feature-box">
+            <img src="vdo.png" alt="Safety Tutorials">
+            <h3>Safety Tutorials</h3>
+            <p>Access a library of self-defense and safety awareness tutorials tailored specifically for women’s needs.</p>
+        </div>
+    </section>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            For more information about our mission, features, or how to get involved, reach out to us at:<br>
+            Email: support@safenest.com<br>
+            Phone: 1-800-SAFENEST<br>
+            Social Media: www.Safenest.youtube.com
+        </p>
+        <footer>
+            <p>Copyright © SafeNest 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
